@@ -1,0 +1,57 @@
+body {
+  background-size: cover;
+  font-weight: 500;
+  background-image: url(physics_back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#tartalom {
+  background-color: rgba(200, 200, 200, 0.85);
+}
+
+h1 {
+  font-style: italic;
+}
+
+table {
+  width: 50%;
+  margin: auto;
+}
+
+th {
+  background-color: gray;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+/* új szelektorok */
+#tartalom {
+  border-radius: 30px;
+  width: 80%;
+  padding: 30px;
+  margin: auto;
+}
+#wigner_kep {
+  float: right;
+  width: 260px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+p {
+  margin: 5px;
+  line-height: 140%;
+  text-align: justify;
+  text-indent: 15px;
+}
+.kituntetesek {
+  list-style-image: url(physics_icon.png);
+}
